@@ -1,5 +1,5 @@
-import '../styles/globals.css';
-import '@rainbow-me/rainbowkit/styles.css';
+import '../styles/globals.css'; // Asegúrate de incluir tus estilos globales aquí
+import '@rainbow-me/rainbowkit/styles.css'; // Estilos de RainbowKit
 import type { AppProps } from 'next/app';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -23,3 +23,4 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 
 export default MyApp;
+
